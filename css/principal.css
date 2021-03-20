@@ -1,0 +1,338 @@
+.registro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.container .container_description {
+  width: 50%;
+}
+
+.container .container_description .img {
+  text-align: center;
+  margin: auto;
+  width: 45%;
+  padding-top: 40px;
+}
+
+.container .container_description .img img {
+  display: inline-block;
+  width: 100%;
+}
+
+.container .container_description .content_login {
+  width: 90%;
+  margin: auto;
+}
+
+.container .container_description .content_login h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.container .container_description .content_contact h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.container .container_description .content_contact i {
+  display: inline-block;
+}
+
+.container .container_description .content_contact p {
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+.container .container_description .content_contact .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.container .container_description .content_contact .numbers a {
+  font-size: 1.2em;
+  text-decoration: none;
+  background: #00bb2d;
+  color: #fff;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+}
+
+.container .container_form {
+  width: 50%;
+  background: #023E8A;
+}
+
+.container .container_form .user {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container .container_form .user i {
+  color: #fff;
+  font-size: 9em;
+  text-align: center;
+  margin: auto;
+}
+
+.container .container_form form {
+  width: 85%;
+  margin: auto;
+}
+
+.container .container_form form .correo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.container .container_form form .correo label {
+  color: #fff;
+  padding-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.container .container_form form .correo input {
+  display: inline-block;
+  width: 60%;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.container .container_form form .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.container .container_form form .password label {
+  color: #fff;
+  padding-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.container .container_form form .password input {
+  display: inline-block;
+  width: 60%;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.container .container_form form .content_btn input {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #0077B6;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.container .container_form_registro {
+  width: 100%;
+  height: 100%;
+  background: #023E8A;
+  padding-bottom: 200px;
+}
+
+.container .container_form_registro .user {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container .container_form_registro .user i {
+  color: #fff;
+  font-size: 9em;
+  text-align: center;
+  margin: auto;
+}
+
+.container .container_form_registro form {
+  width: 70%;
+  margin: auto;
+}
+
+.container .container_form_registro form .correo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 80px;
+}
+
+.container .container_form_registro form .correo label {
+  color: #fff;
+  padding-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.container .container_form_registro form .correo input {
+  display: inline-block;
+  width: 90%;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.container .container_form_registro form .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 80px;
+}
+
+.container .container_form_registro form .password label {
+  color: #fff;
+  padding-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.container .container_form_registro form .password input {
+  display: inline-block;
+  width: 90%;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.container .container_form_registro form .content_btn input {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #0077B6;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .container .container_form form .correo input {
+    width: 80%;
+  }
+  .container .container_form form .password input {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .container .container_description {
+    width: 100%;
+  }
+  .container .container_form {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 353px) {
+  .container .container_description .content_contact .numbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .container_description .content_contact .numbers a {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=principal.css.map */

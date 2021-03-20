@@ -1,0 +1,149 @@
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background: #3B80B7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .titulo {
+  width: 85%;
+}
+
+header .titulo a {
+  text-decoration: none;
+}
+
+header .titulo a p {
+  text-align: center;
+  color: #ffffff;
+}
+
+header .btn {
+  width: 15%;
+}
+
+header .btn a {
+  text-decoration: none;
+}
+
+header .btn a p {
+  text-align: center;
+  color: #ffffff;
+}
+
+iframe {
+  width: 100%;
+  height: 750px;
+}
+
+.contenido_libro {
+  width: 100%;
+}
+
+.contenido_libro .titulo_libro {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contenido_libro .titulo_libro p {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.contenido_libro .temarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenido_libro .temarios .temario {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.contenido_libro .temarios .temario a {
+  text-decoration: none;
+}
+
+.contenido_libro .temarios .temario a .imagen {
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  max-height: 244px;
+  position: relative;
+}
+
+.contenido_libro .temarios .temario a .imagen img {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 244px;
+}
+
+.contenido_libro .temarios .temario a .imagen .content_titulo {
+  width: 100%;
+  position: absolute;
+  bottom: 40%;
+}
+
+.contenido_libro .temarios .temario a .imagen .content_titulo p {
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contenido_libro .temarios .temario {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  iframe {
+    width: 100%;
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  header .btn {
+    margin-left: 25px;
+  }
+  .contenido_libro .temarios .temario {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contenido_libro .temarios .temario a .imagen .content_titulo p {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .contenido_libro .temarios .temario a .imagen .content_titulo p {
+    font-size: 1.2em;
+  }
+}
+/*# sourceMappingURL=contenido.css.map */
