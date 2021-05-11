@@ -4,3 +4,5 @@ this is a project that i did for a client, it is an online book that works with 
 you can visit this web [here](https://libroeaes.com/login.php)
 
 use the email correo@correo.com and the password 123
+
+the client agrees that you can visit the content of the page
